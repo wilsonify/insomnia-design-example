@@ -1,0 +1,27 @@
+_id: req_wrk_16125b9229be40d0ac124384a7d7cb71e62a63ec
+type: Request
+parentId: fld_wrk_16125b9229be40d0ac124384a7d7cb7112dea96f
+modified: 1608559304537
+created: 1597511753099
+url: "{{ base_url }}/user/login"
+name: Logs user into the system
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: username
+    disabled: false
+    value: string
+  - name: password
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1597511753099
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
